@@ -5,6 +5,7 @@ import CustomersSay from './components/CustomersSay'
 import Chicago from './components/Chicago'
 import BookingPage from './components/BookingPage'
 import CallToAction from './components/CallToAction'
+import Footer from './components/Footer'
 // import { Routes, Route } from 'react-router-dom'
 
 import './App.css'
@@ -24,6 +25,7 @@ function App() {
       <Chicago />
       <BookingPage />
       <CallToAction />
+      <Footer />
     </>
   )
 }
