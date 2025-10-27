@@ -1,0 +1,64 @@
+.customers-say {
+  height: 50vh;
+  justify-content: center;
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f9f9f9; /* light background for contrast */
+}
+
+/* Heading */
+.customers-say h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+/* Card container */
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: nowrap; /* keep cards in one row */
+  overflow-x: auto; /* scroll if too many */
+  padding-bottom: 10px;
+}
+
+/* Each testimonial card */
+.testimonial-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  padding: 20px;
+  text-align: center;
+  flex-shrink: 0; /* prevent shrinking on overflow */
+}
+
+/* Customer photo */
+.testimonial-card img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+/* Star ratings */
+.stars {
+  color: gold;
+  margin-bottom: 10px;
+}
+
+/* Review text */
+.testimonial-card p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Customer name */
+.customer-name {
+  font-weight: 600;
+  color: #222;
+}

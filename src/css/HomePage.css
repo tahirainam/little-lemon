@@ -1,0 +1,48 @@
+/* Make the outer div a flex container */
+.homepage {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between; /* space between text and image */
+  align-items: center; /* vertically center */
+  padding: 50px;
+  max-width: 1000px;
+  margin: 0 auto; /* center the whole section on page */
+  gap: 40px;
+}
+
+/* Left side text content */
+.homepage-text {
+  flex: 1;
+  text-align: left;
+}
+
+.homepage-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.homepage-text p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* Button style */
+.homepage-text button {
+  background-color: #f4b400;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.homepage-text button:hover {
+  background-color: #e09c00;
+}
+
+/* Right side image */
+.homepage img {
+  width: 400px;
+  border-radius: 12px;
+  object-fit: cover;
+}

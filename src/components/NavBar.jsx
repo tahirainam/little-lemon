@@ -1,4 +1,6 @@
 // (the top-level navigation of the website, sometimes referred to as the navbar)
+import React from 'react';
+import '../css/NavBar.css';
 function NavBar() {
   return (
     <nav className="w-full py-4 flex items-center justify-between">

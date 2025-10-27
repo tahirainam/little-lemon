@@ -1,0 +1,79 @@
+.specials {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+/* Heading + button on top */
+.specials-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.specials-header h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.specials-header button {
+  background-color: #f4b400;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.specials-header button:hover {
+  background-color: #e09c00;
+}
+
+/* Card container */
+.specials-cards {
+  display: flex;
+  justify-content: center; /* centers the whole row */
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: nowrap; /* keeps all cards in one row */
+  overflow-x: auto; /* allows scroll if too many cards */
+}
+
+/* Each card */
+.special-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 280px;
+  text-align: left;
+  flex-shrink: 0; /* prevent shrinking when overflow */
+}
+
+.special-card img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.special-card h3 {
+  margin: 5px 0;
+}
+
+.special-card p {
+  margin: 5px 0 10px;
+}
+
+.special-card button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.special-card button:hover {
+  background-color: #555;
+}

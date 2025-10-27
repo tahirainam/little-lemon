@@ -10,6 +10,7 @@ import Footer from './components/Footer'
 
 import './App.css'
 
+
 function App() {
 
   return (
@@ -23,8 +24,9 @@ function App() {
       <Specials />
       <CustomersSay />
       <Chicago />
-      <BookingPage />
-      <CallToAction />
+      {/* <BookingPage />
+      <CallToAction /> */}
+      
       <Footer />
     </>
   )
