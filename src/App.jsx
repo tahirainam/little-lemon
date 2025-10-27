@@ -24,8 +24,8 @@ function App() {
       <Specials />
       <CustomersSay />
       <Chicago />
-      {/* <BookingPage />
-      <CallToAction /> */}
+       <BookingPage />
+      {/*<CallToAction /> */}
       
       <Footer />
     </>

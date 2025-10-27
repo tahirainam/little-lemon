@@ -39,8 +39,6 @@ function Footer() {
           <li><a href="#twitter">Twitter</a></li>
         </ul>
       </div>
-
-      <p>© 2025 Little Lemon. All rights reserved.</p>
     </footer>
   );
 }
