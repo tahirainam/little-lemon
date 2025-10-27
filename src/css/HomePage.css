@@ -1,17 +1,20 @@
 /* Make the outer div a flex container */
 .homepage {
-  height: 100vh;
+  color: white;
+  height: 70vh;
   display: flex;
   justify-content: space-between; /* space between text and image */
   align-items: center; /* vertically center */
   padding: 50px;
-  max-width: 1000px;
-  margin: 0 auto; /* center the whole section on page */
-  gap: 40px;
+  width: 100%;
+  margin: 30px auto; /* center the whole section on page */
+  gap: 100px;
+  background-color: #495e57;
 }
 
 /* Left side text content */
 .homepage-text {
+  margin-left: 5rem;
   flex: 1;
   text-align: left;
 }
@@ -31,7 +34,7 @@
   background-color: #f4b400;
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 15px 30px;
   border-radius: 8px;
   cursor: pointer;
 }
@@ -45,4 +48,17 @@
   width: 400px;
   border-radius: 12px;
   object-fit: cover;
+  justify-content: left;
+  align-items: start;
+  margin-right: 5rem;
+}
+.hero-img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+.location {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
 }

@@ -1,10 +1,13 @@
 // (the top-level navigation of the website, sometimes referred to as the navbar)
 import React from 'react';
 import '../css/NavBar.css';
+import logo from '../assets/littlelemon_logo.png';
 function NavBar() {
   return (
     <nav className="w-full py-4 flex items-center justify-between">
-      <div className="text-lg font-semibold">Little Lemon</div>
+      <div className="text-lg font-semibold">
+        <img src={logo} alt="Little Lemon Logo" className='nav-logo' />
+      </div>
       <ul className="flex space-x-4">
         <li><a href="#home">Home</a></li>
         <li><a href="#specials">About</a></li>

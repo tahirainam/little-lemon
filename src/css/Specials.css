@@ -1,7 +1,7 @@
 .specials {
   padding: 40px;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 10rem auto;
   height: 100vh;
 }
 
@@ -10,7 +10,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .specials-header h2 {
@@ -22,7 +22,7 @@
   background-color: #f4b400;
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 10px 30px;
   border-radius: 8px;
   cursor: pointer;
 }
@@ -32,6 +32,8 @@
 
 /* Card container */
 .specials-cards {
+  padding: 10px 0;
+
   display: flex;
   justify-content: center; /* centers the whole row */
   align-items: flex-start;
@@ -42,7 +44,7 @@
 
 /* Each card */
 .special-card {
-  background: #fff;
+  background-color: #495e5763;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;

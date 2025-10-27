@@ -1,12 +1,13 @@
 import React from 'react';
 import '../css/Footer.css';
+import logo from '../assets/small_logo.png';
 
 function Footer() {
   return (
     <footer className="footer">
       {/* Column 1 - Logo */}
       <div className="footer-column">
-        <img src="image_url" alt="Little Lemon logo" />
+        <img src={logo} alt="Little Lemon logo" />
       </div>
 
       {/* Column 2 - Doormat Navigation */}

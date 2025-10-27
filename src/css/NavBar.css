@@ -2,10 +2,13 @@ nav {
   display: flex;
   justify-content: center; /* centers horizontally */
   align-items: center; /* centers vertically */
-  height: 5vh; /* full viewport height */
+  height: 19vh; /* full viewport height */
   gap: 40px; /* space between logo and menu */
 }
-
+.nav-logo {
+  height: 80px; /* adjust as needed */
+  width: auto;
+}
 nav ul {
   display: flex;
   gap: 20px; /* spacing between list items */
