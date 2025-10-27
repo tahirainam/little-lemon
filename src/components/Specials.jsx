@@ -2,9 +2,16 @@
 function Specials() {
     return (
         <div>
+            <h1>Specials</h1>
+            <button>Menu</button>
+            <img src="image_url" alt="Name of Dish" />
+            <h2>Name of Dish</h2>
+            <p>price</p>
+            
             <p>
-                Specials Component
+                Specials description goes here.
             </p>
+            <button>Order a delivery</button>
         </div>
     );
 }
