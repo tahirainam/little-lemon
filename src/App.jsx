@@ -22,7 +22,6 @@ function App() {
       <HomePage />
       <Specials />
       <CustomersSay />
-       <BookingPage />
       {/*<CallToAction /> */}
       
       <Footer />

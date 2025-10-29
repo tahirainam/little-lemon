@@ -1,5 +1,5 @@
 .customers-say {
-  height: 50vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -32,7 +32,7 @@
 /* Each testimonial card */
 .testimonial-card {
   color: white;
-  background-color: #b7c4a7;
+  background-color: #b7c4a79d;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 280px;
