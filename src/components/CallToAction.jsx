@@ -6,6 +6,7 @@ function CallToAction() {
       <h2>Ready to Make a Reservation?</h2>
       <p>Book your table now and experience the best dining in town!</p>
       <button className="cta-button">Reserve Now</button>
+      
     </section>
   );
 }

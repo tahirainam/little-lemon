@@ -23,7 +23,7 @@ function CustomersSay() {
   return (
     <div className="customers-say">
       <h2>Testimonials</h2>
-
+      {/*  use maarquee tag fro this secction */}
       <div className="testimonial-cards">
         {testimonials.map((t, index) => (
           <div className="testimonial-card" key={index}>

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 // (the top-level navigation of the website, sometimes referred to as the navbar)
 import React from 'react';
 import '../css/NavBar.css';
@@ -9,12 +11,12 @@ function NavBar() {
         <img src={logo} alt="Little Lemon Logo" className='nav-logo' />
       </div>
       <ul className="flex space-x-4">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#specials">About</a></li>
-        <li><a href="#testimonials">Menu</a></li>
-        <li><a href="#chicago">Reservations</a></li>
-        <li><a href="#booking">Order Online</a></li>
-        <li><a href="#booking">Login</a></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/menu">Menu</Link></li>
+        <li><Link to="/reservations">Reservations</Link></li>
+        <li><Link to="/order">Order Online</Link></li>
+        <li><Link to="/login">Login</Link></li>
       </ul>
     </nav>
   );
